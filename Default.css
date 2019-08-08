@@ -1,0 +1,251 @@
+body {
+    background-color: #EBEAE3;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px; /*default font-size, jQuery UI runs off em from px default*/
+}
+
+.wrap {
+    white-space: normal;
+    width: 100px;
+}
+
+.Textbox-centermedium {
+    text-align: center;
+    font-size: medium;
+}
+
+img {    
+    width: 48px;
+    height: 48px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/************* TABLES **************************/
+table.withBorder, table.withBorder th, table.withBorder td {
+    border: 1px solid #CDCDCD;
+}
+
+.withOutsideBorder {
+    border: 1px solid #CDCDCD;
+}
+
+
+/*TABLE HEADER COLOR OPTIONS*/
+table.tanHeader th, div.tanHeader {
+    background-color: #E9E9D9;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.lgtgreenHeader th, div.lgtgreenHeader {
+    background-color: #46A033;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.greenHeader th, div.greenHeader {
+    background-color: #007337;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.lgtorangeheader th, div.lgtorangeheader {
+    background-color: #ED8800;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.orangeheader th, div.orangeheader {
+    background-color: #CE4C00;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.lgttealheader th, div.lgttealheader {
+    background-color: #0095C8;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.dktealheader th, div.dktealheader {
+    background-color: #00698C;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.purpleheader th, div.purpleheader {
+    background-color: #702F8A;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.dkpurpleheader th, div.dkpurpleheader {
+    background-color: #4D3B65;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.lgtmagentaheader th, div.lgtmagentaheader {
+    background-color: #AE2573;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.magentaheader th, div.magentaheader {
+    background-color: #821861;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.lgtredheader th, div.lgtredheader {
+    background-color: #EC1C29;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.redheader th, div.redheader {
+    background-color: #AE1E23;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.ebonyheader th, div.ebonyheader {
+    background-color: #7A6855;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.dkebonyheader th, div.dkebonyheader {
+    background-color: #574537;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.coolgrayheader th, div.coolgrayheader {
+    background-color: #44464A;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.lgtcoolgrayheader th, div.lgtcoolgrayheader {
+    background-color: #D9D9D6;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.medcoolgrayheader th, div.medcoolgrayheader {
+    background-color: #BFC0BE;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.lgtgrayheader th, div.lgtgrayheader {
+    background-color: #E0E3E2;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.stoneheader th, div.stoneheader {
+    background-color: #D7D3C7;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.breezeheader th, div.breezeheader {
+    background-color: #DADBBF;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.airheader th, div.airheader {
+    background-color: #F2E2BD;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.khakiheader th, div.khakiheader {
+    background-color: #BFCEC2;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+table.aquablueheader th, div.aquablueheader {
+    background-color: #C2DEEA;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.padding-left{
+    padding-left: 10px;
+}
+
+.padding-right{
+    padding-right: 10px;
+}
+
+.textalign-right {
+    text-align:right; 
+    padding-right:10px;
+}
+
+.textalign-left {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.textalign-center {
+    text-align: center;
+}
+.column-width55 {
+    width: 55px;
+}
+.column-widthauto_text-center {
+    width: auto;
+    text-align: center;
+}
+
+.background-aquablue {
+    background-color: #C2DEEA;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.background-teal {
+    background-color: teal;
+    color:white;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.background-turqoise {
+    background-color:turquoise;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.background-aquamarine {
+    background-color:aquamarine;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+/************* END TABLES **************************/
